@@ -4,7 +4,7 @@ def kthSmallest(matrix, k):
     :type k: int
     :rtype: int
     """
-    # mat = []
+    mat = []
     mat += [n for m in matrix for n in m]
     print(sorted(mat)[k-1])
 
